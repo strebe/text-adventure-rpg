@@ -1,0 +1,77 @@
+{
+  "initialDescription": "Você desperta em um corredor estreito de pedra. As paredes estão cobertas de marcas e inscrições apagadas, como se outros tivessem tentado deixar mensagens antes.\nHá portas pesadas de madeira que levam a diferentes salas, e no final do corredor, uma porta maciça de ferro, pintada de dourado, sem maçaneta aparente.\nSeu instinto diz que precisa avançar, decifrar os sinais e encontrar o caminho para a liberdade.",
+  "finalDescription": "\n\n\n\nA porta a sua frente abre. O caminho da liberdade se apresenta. \n\n\n\n Na tela negra ao lado da porta, agora acesa, você vê uma silhueta, despertando em um corredor estreito de pedra...",
+  "centralCorridor": {
+    "name": "Corredor Central",
+    "entryDesc": "Você está no Corredor Central: uma galeria ampla com pinturas nos muros, iluminada por velas antigas.",
+    "paintingTitle": "O Juramento dos Horácios (Jacques-Louis David, 1784)",
+    "paintingLegend": "Abaixo do quadro, há uma citação: \"What we do in life echoes in eternity.\" — Gladiator"
+  },
+  "library": {
+    "name": "Biblioteca",
+    "entryDesc": "Prateleiras altas cheias de volumes empoeirados cercam você.",
+    "paintingTitle": "Um Filósofo Explicando o Orrery (Joseph Wright of Derby, 1766)",
+    "paintingLegend": "Abaixo do quadro, há uma citação: \"Do not go where the path may lead, go instead where there is no path and leave a trail.\" — R. W. Emerson",
+    "fadedBookDesc": "Um livro antigo, as páginas quase se desfazendo.",
+    "fadedBookAction": "Ao examinar o livro, você nota um texto grifado no centro: O sol atinge seu ponto mais alto ao meio-dia."
+  },
+  "storage": {
+    "name": "Armazém",
+    "entryDesc": "Um armazém com caixas e ferramentas empilhadas — o cheiro de metal domina o ambiente.",
+    "stackedBoxesDesc": "Caixas empilhadas até o teto.",
+    "stackedBoxesAction": "Algo metálico brilha por trás das caixas."
+  },
+  "maintenanceRoom": {
+    "name": "Sala de Manutenção",
+    "entryDesc": "Uma sala prática com bancadas, ferramentas e um checklist preso à parede.",
+    "checklistDesc": "Um checklist pregado na parede.",
+    "checklistAction": "Ponteiro substituído — precisa recolocar."
+  },
+  "clockRoom": {
+    "name": "Torre do Relógio",
+    "entryDesc": "Uma sala lotada de engrenagens gigantes e um silêncio tenso.",
+    "paintingTitle": "A Jangada da Medusa (Théodore Géricault, 1819)",
+    "paintingLegend": "Abaixo do quadro, há uma citação: \"We are all in the same boat, in a stormy sea, and we owe each other a terrible loyalty.\" — G. K. Chesterton",
+    "ladderDesc": "Uma escada retrátil presa no alto.",
+    "ladderDownDesc": "A escada agora está destravada e abaixada.",
+    "ladderAction": "A escada retrátil parece chegar até o relógio, mas está presa no alto. Se houvesse como puxá-la...",
+    "ladderDownAction": "A escada já está abaixada.",
+    "clockDesc": "Um relógio monumental sem ponteiro das horas.",
+    "usingLongHook": "Você usa o gancho para puxar a escada para baixo.",
+    "clockAction": "O relógio está muito longe para ser examinado. Se houvesse como abaixar a escada...",
+    "clockLadderDownDesc": "O relógio agora está ao seu alcance, se usar a escada para chegar até ele.",
+    "clockLadderDownAction": "Ainda longe para observar, mas subindo a escada, deve ser possível."
+  },
+  "clockFront": {
+    "name": "Frente do Relógio",
+    "entryDesc": "Subindo as escadas, Você observa o imenso mostrador do relógio, com seu disco vazio onde os ponteiros deveriam estar.",
+    "entryWithPointerDesc": "Subindo as escadas, Você observa o imenso mostrador do relógio, agora com o ponteiro, apontando para o topo.",
+    "clockEmptyDesc": "Um pequeno barulho de engrenagens pode ser ouvido vindo do relógio. Mas sem ponteiros, ele parece inútil.",
+    "clockEmptyAction": "O relógio marca 12h00, um estrondo ecoa e engranagens altas são ouvidas desde o corredor central.",
+    "clockErrorAction": "O ponteiro não encaixa. Talvez esteja no lugar errado.",
+    "clockWithPointerDesc": "O relógio agora tem um ponteiro de horas, apontando para o topo, marcando meio-dia.",
+    "clockWithPointerAction": "O relógio continua estático, marcando 12h00. Talvez algo tenha mudado no corredor central."
+  },
+  "finalCorridor": {
+    "name": "Corredor Final",
+    "entryDesc": "O pequeno corredor se estende adiante, com uma atmosfera solene e uma mesa ao centro. Ao atravessar a porta, você percebe que a mesma se fecha logo atrás de você.\n A sua frente há outra porta, que assim como a anterior, não possui maçaneta. A julgar pela poeira levantada, ela foi recentemente aberta.\nAo lado da porta há uma tela negra, mas não há nada nela, ao menos agora.",
+    "paintingTitle": "O Peregrino sobre o Mar de Névoa (Caspar David Friedrich, 1818)",
+    "paintingLegend": "Abaixo do quadro, há uma citação: \"We are all stories, in the end. Just make it a good one.\" — Doctor Who",
+    "buttonTableDesc": "Uma mesa com um grande botão vermelho escrito 'Chamar o próximo'.",
+    "buttonTableDecision": "O único caminho é seguir em frente, mesmo em meio as incertezas. Apertar o botão? (Sim / Não)",
+    "buttonTableAction": "O ciclo recomeça… Para aqueles que virão."
+  },
+  "engine": {
+    "separator": "-------------------------",
+    "prompt": "O que quer fazer? ",
+    "gameOver": "Game over!",
+    "okAdded": "Ok! {item} adicionado no inventário!",
+    "notFound": "Objeto {item} não encontrado.",
+    "inventory": "Ferramentas disponíveis para uso: ",
+    "done": "Feito!!",
+    "cantUseWithTool": "Não é possível {verb} {tool} em {object} nessa sala.",
+    "cantUseNoTool": "Não é possível {verb} {object} nessa sala.",
+    "unknownRoom": "Sala desconhecida...",
+    "unknownCommand": "Comando desconhecido: {command}"
+  }
+}
