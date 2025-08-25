@@ -5,7 +5,6 @@ Um jogo de aventura baseado em texto construído com JavaScript moderno e arquit
 ## História
 
 Você desperta em um corredor estreito de pedra com inscrições apagadas nas paredes. Portas pesadas de madeira levam a diferentes salas, e no final do corredor há uma porta maciça de ferro dourado sem maçaneta visível. Seu instinto diz para avançar, decifrar os sinais e encontrar o caminho para a liberdade.
-O que 
 
 ## Como Executar
 
